@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="CutTool/CutTool.vcxproj" />
+  <Project Path="CutTool/CutTool.vcxproj" Id="de31cdfd-d0c9-4f72-9fdf-d80388f410fa" />
 </Solution>

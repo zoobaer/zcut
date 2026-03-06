@@ -3,4 +3,4 @@
 
 ## Demo
 
-![demo](static/Capture.png)
+![demo](static/Capture.PNG)

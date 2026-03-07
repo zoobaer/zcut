@@ -206,6 +206,13 @@ int cut_main(int argc, char** argv) {
 
 			if (ch == '\n') {
 				line_no++;
+
+				if (is_number_value_set) {
+					if (line_no == number_value) {
+						break;
+					}
+				}
+
 				column_no = 1;
 				print_count = 0;
 				should_be_printed = fields_array_field_exist(fields_specified_values, fields_specified_valuesp, 1);
